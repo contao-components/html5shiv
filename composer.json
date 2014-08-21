@@ -1,0 +1,23 @@
+{
+    "name": "contao-components/html5shiv",
+    "type": "component",
+    "description": "HTML5 Shiv integration for Contao Open Source CMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leo Feyer",
+            "homepage": "https://github.com/leofeyer"
+        }
+    ],
+    "require": {
+        "robloach/component-installer": "~0.0"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "js/html5shiv.min.js",
+                "js/html5shiv-printshiv.min.js"
+            ]
+        }
+    }
+}

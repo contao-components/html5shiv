@@ -1,6 +1,6 @@
 {
     "name": "contao-components/html5shiv",
-    "type": "component",
+    "type": "contao-component",
     "description": "HTML5 Shiv integration for Contao Open Source CMS",
     "license": "MIT",
     "authors": [
@@ -10,16 +10,6 @@
         }
     ],
     "require": {
-        "robloach/component-installer": "~0.0"
-    },
-    "extra": {
-        "component": {
-            "scripts": [
-                "js/html5shiv.min.js"
-            ],
-            "files": [
-                "js/html5shiv-printshiv.min.js"
-            ]
-        }
+        "contao-components/installer": "~1.0"
     }
 }
